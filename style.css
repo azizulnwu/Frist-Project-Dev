@@ -5,6 +5,10 @@ body{
   padding: 0px;
  
 }
+body button:hover{
+  cursor: pointer;
+  
+}
 /* header style */
 header{
   background-image:url(imges/Hero-bg.png);
