@@ -68,7 +68,7 @@ main{
 .main-section-one{
   display: flex;
   /* justify-content:space-between; */
-  gap: 40px;
+  gap: 30px;
   margin: 30px 310px;
 }
 .main-section-one img{
