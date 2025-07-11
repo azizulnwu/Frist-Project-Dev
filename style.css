@@ -119,11 +119,11 @@ main{
 .main-section-three-first-div{
   margin: 30px auto;
   text-align: center;
-  width: 580px;
+  width: 600px;
 }
 .main-section-three-child-div{
   background-color: white;
-  width: 160px;
+  width: 170px;
   height: 130px;
   text-align: left;
 }
@@ -159,12 +159,12 @@ main{
 .main-section-three-child-2nd-div p span{
   color:rgba(0, 0, 0,.4); 
 }
- /* main section fore css */
+ /* main section four css */
 
  .main-section-four-parent-div{
   margin: 30px auto;
   text-align: center;
-  width: 580px;
+  width: 600px;
   background-color: white;
  }
  .main-section-four-parent-div h1{
@@ -181,7 +181,7 @@ main{
    margin: 6px 0px 0px 0px;
    padding: 6px 20px;
    font-size: 10px;
-   background-color:#1d7eb3;
+   background-color:rgb(29, 126, 179);
    border: none;
    border-radius: 5px;
    font-weight: bold;
@@ -198,7 +198,7 @@ main{
 .main-section-last-first-div{
   margin: 30px auto;
   text-align: center;
-  width: 580px;
+  width: 590px;
 }
 .main-section-last-parent-div{
   display: flex;
@@ -214,8 +214,8 @@ main{
 }
 .main-section-last-form-div input[type="email"],.main-section-last-form-div input[type="text"]{
   font-size: 10px;
-  width: 96%;
-  padding: 8px;
+  width: 95%;
+  padding: 10px;
   border: none;
 }
 .main-section-last-form-div textarea{
@@ -238,4 +238,33 @@ main{
    border-radius: 5px;
    font-weight: bold;
    
+}
+/* footer style */
+
+.footer-section-div{
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+.footer-section-div p{
+    color:rgba(12, 29, 39, 0.4); 
+    font-size: 10px;
+    margin: 20px 0px 14px 0px;
+    text-align: center;
+}
+
+.footer-section-ul{
+  display: flex;
+}
+.footer-section-parent-div ul li{
+  list-style: none;
+  margin: 0px 10px;
+}
+.footer-section-parent-div ul li a{
+  text-decoration: none;
+  color:rgba(12, 29, 39, 0.4);
+  font-size: 10px;
+}
+.footer-section-parent-div ul li a:hover{
+  color: #2d89be;
 }
