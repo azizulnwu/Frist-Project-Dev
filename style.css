@@ -7,7 +7,7 @@ body{
 }
 body button:hover{
   cursor: pointer;
-  
+
 }
 /* header style */
 header{
@@ -80,7 +80,7 @@ main{
   
 }
 .main-section-main-div{
-  width: 580px;
+  width: 650px;
   height: 150px;
   background-color:rgb(187, 216, 226);
   border-radius: 20px;
