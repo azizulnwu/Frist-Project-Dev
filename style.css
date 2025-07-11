@@ -165,6 +165,7 @@ main{
   margin: 30px auto;
   text-align: center;
   width: 580px;
+  background-color: white;
  }
  .main-section-four-parent-div h1{
   font-family:Verdana, Geneva, Tahoma, sans-serif ;
@@ -190,5 +191,51 @@ main{
   height: 170px;
   border-radius: 20px;
   margin: 20px;
-  /* margin: 20px auto; */
+  
+}
+
+/* main last section css */
+.main-section-last-first-div{
+  margin: 30px auto;
+  text-align: center;
+  width: 580px;
+}
+.main-section-last-parent-div{
+  display: flex;
+  justify-content:space-between
+}
+.main-section-last-parent-div h1{
+ font-size: 35px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif ;
+ margin-top: 80px;
+}
+.main-section-last-form-div{
+  text-align: left;
+}
+.main-section-last-form-div input[type="email"],.main-section-last-form-div input[type="text"]{
+  font-size: 10px;
+  width: 96%;
+  padding: 8px;
+  border: none;
+}
+.main-section-last-form-div textarea{
+  font-size: 10px;
+  width: 96%;
+  padding: 8px;
+  border: none;
+}
+.main-section-last-form-div label{
+  font-size:10px ;
+}
+.main-section-last-form-div button{
+   width: 100%;
+   color: white;
+   margin: 5px 0px 0px 2px;
+   padding: 9px 20px;
+   font-size: 7px;
+   background-color:#1d7eb3;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   
 }
