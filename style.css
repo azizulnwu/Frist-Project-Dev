@@ -9,13 +9,12 @@ body{
 header{
   background-image:url(imges/Hero-bg.png);
   height: 400px;
-  width: 100%;
   padding: 40px;
 }
 .Top-portion{
   display: flex;
   justify-content:space-between;
-  margin: 30px 200px;
+  margin: 30px  200px;
   
 }
 .open-sans-logo {
@@ -55,4 +54,141 @@ header{
   font-style: normal;
   font-variation-settings:
     "width" 100;
+}
+
+/* Main section css */
+main{
+  background-color:rgb(234, 244, 248);
+  padding: 10px;
+}
+.main-section-one{
+  display: flex;
+  justify-content:space-between;
+  margin: 30px 310px;
+}
+.main-section-one img{
+  width: 200px;
+  height: 170px;
+  border-radius: 20px;
+}
+.main-section-one  p{
+  color: rgba(0, 0, 0,.5);
+  
+}
+.main-section-main-div{
+  width: 580px;
+  height: 150px;
+  background-color:rgb(187, 216, 226);
+  border-radius: 20px;
+  margin: 0px auto;
+  padding: 10px;
+}
+.user-section-parent-div{
+  
+   display: flex;
+   margin: 0px 100px;
+  justify-content: space-between;
+}
+.main-section-main-div h4{
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.user-section-parent-div h1{
+  font-family:'Times New Roman', Times, serif;
+  color: #2d89be;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+.user-section-parent-div p{
+   color: rgba(0, 0, 0,.5);
+   margin-top: 0px;
+   font-size:smaller;
+   
+}
+.active-user{
+  text-align: center;
+}
+
+/* main section three css */
+.main-section-three-parent-div{
+  display: flex;
+  justify-content: space-between;
+}
+.main-section-three-first-div{
+  margin: 30px auto;
+  text-align: center;
+  width: 580px;
+}
+.main-section-three-child-div{
+  background-color: white;
+  width: 160px;
+  height: 130px;
+  text-align: left;
+}
+
+.icon-star{
+  width: 10px;
+  height: 10px;
+  
+}
+.main-section-three-parent-div h5{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.main-section-three-parent-div p{
+  font-size: 10px;
+  margin-top: 10px;
+}
+.main-section-three-child-2nd-div{
+  display: flex;
+  
+}
+.img-section-three{
+  width:16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.main-section-three-child-2nd-div p{
+  margin-top: 0px;
+  margin-left: 4px;
+  color:rgba(0, 0, 0,.6); 
+
+}
+.main-section-three-child-2nd-div p span{
+  color:rgba(0, 0, 0,.4); 
+}
+ /* main section fore css */
+
+ .main-section-four-parent-div{
+  margin: 30px auto;
+  text-align: center;
+  width: 580px;
+ }
+ .main-section-four-parent-div h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  margin-bottom: 0px;
+ }
+.main-section-four-parent-div  p{
+     color:rgba(0, 0, 0,.4); 
+    font-size: 10px;
+    margin: 10px 0px 14px 0px;
+  }
+.main-section-four-parent-div button{
+  color: white;
+   margin: 6px 0px 0px 0px;
+   padding: 6px 20px;
+   font-size: 10px;
+   background-color:#1d7eb3;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+}
+.main-section-four-parent-div img{
+  width: 420px;
+  height: 170px;
+  border-radius: 20px;
+  margin: 20px;
+  /* margin: 20px auto; */
 }
